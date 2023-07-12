@@ -77,7 +77,7 @@ export class VRM implements IGLTFLoaderExtension {
     /**
      * @inheritdoc
      */
-    public _loadVertexDataAsync(context: string, primitive: IMeshPrimitive, babylonMesh: Mesh) {
+    public _loadVertexDataAsync(_context: string, primitive: IMeshPrimitive, babylonMesh: Mesh) {
         if (!primitive.extras || !primitive.extras.targetNames) {
             return null;
         }

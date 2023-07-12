@@ -15,6 +15,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(vert|frag)$/,
+                type: 'asset/source',
+            },
+            {
                 test: /\.ts$/,
                 loader: 'ts-loader',
                 oneOf: [
@@ -28,7 +32,7 @@ module.exports = {
     },
     resolve: {
         modules: [resolve(__dirname, 'node_modules')],
-        extensions: ['.js', '.ts'],
+        extensions: ['.js', '.ts', '.vert', '.frag'],
     },
     devServer: {
         static: {

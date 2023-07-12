@@ -90,7 +90,7 @@ async function main() {
     window.addEventListener('resize', () => {
         engine.resize();
     });
-    await SceneLoader.AppendAsync('./', 'AliciaSolid.vrm', scene);
+    await SceneLoader.ImportMeshAsync('', 'https://a-cdn.qbox.net/test/models/vrm/Keqing.vrm', '', scene);
 
     let fileCount = 1;
     (document.getElementById('file-input') as HTMLInputElement).addEventListener('change', (evt) => {
