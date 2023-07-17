@@ -13,6 +13,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ~5.16.0
   '@typescript-eslint/parser': ~5.16.0
   babylonjs-gltf2interface: ^5.0.0
+  babylonjs-mtoon-material: 0.0.7-beta.0
   cz-conventional-changelog: 3.3.0
   eslint: ^8.11.0
   eslint-config-prettier: ~8.5.0
@@ -42,6 +43,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.16.0_abpcp7o4qnqvwdlnqjzybrieku
   '@typescript-eslint/parser': 5.16.0_6cd2i5rngi5m2wegll7gm7hjwa
   babylonjs-gltf2interface: 5.57.1
+  babylonjs-mtoon-material: 0.0.7-beta.0_@babylonjs+core@6.8.0
   cz-conventional-changelog: 3.3.0
   eslint: 8.44.0
   eslint-config-prettier: 8.5.0_eslint@8.44.0
@@ -1344,6 +1346,14 @@ packages:
 
   /babylonjs-gltf2interface/5.57.1:
     resolution: {integrity: sha512-RZnaKfJ6Q/AYLdIjBYMRxCW/HPEC8jabAL1U8wJ0KVziw6NSbSV6S80S22fUCPTyaZ7nCekn1TYg1IPmJ/eA6w==}
+    dev: true
+
+  /babylonjs-mtoon-material/0.0.7-beta.0_@babylonjs+core@6.8.0:
+    resolution: {integrity: sha512-lpDBYj53WsnE6YNJ2SVTtnIEEHX+D/1HFATwtrBoX9GvWqvXwyngacsILN34UnMhMB5N3G94//TogGAor35YOA==}
+    peerDependencies:
+      '@babylonjs/core': 6.8.0
+    dependencies:
+      '@babylonjs/core': 6.8.0
     dev: true
 
   /balanced-match/1.0.2:
