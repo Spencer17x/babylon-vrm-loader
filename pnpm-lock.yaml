@@ -12,6 +12,7 @@ specifiers:
   '@types/node': ^15.12.2
   '@typescript-eslint/eslint-plugin': ~5.16.0
   '@typescript-eslint/parser': ~5.16.0
+  ansi-html-community: ^0.0.8
   babylonjs-gltf2interface: ^5.0.0
   babylonjs-mtoon-material: 0.0.7-beta.0
   cz-conventional-changelog: 3.3.0
@@ -19,7 +20,9 @@ specifiers:
   eslint-config-prettier: ~8.5.0
   eslint-plugin-import: ~2.26.0
   eslint-plugin-prettier: ~4.0.0
+  events: ^3.3.0
   gh-pages: ^4.0.0
+  html-entities: ^2.4.0
   prettier: ^2.7.1
   semantic-release: ^19.0.3
   ts-loader: ^9.2.6
@@ -42,6 +45,7 @@ devDependencies:
   '@types/node': 15.14.9
   '@typescript-eslint/eslint-plugin': 5.16.0_abpcp7o4qnqvwdlnqjzybrieku
   '@typescript-eslint/parser': 5.16.0_6cd2i5rngi5m2wegll7gm7hjwa
+  ansi-html-community: 0.0.8
   babylonjs-gltf2interface: 5.57.1
   babylonjs-mtoon-material: 0.0.7-beta.0_@babylonjs+core@6.8.0
   cz-conventional-changelog: 3.3.0
@@ -49,7 +53,9 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.44.0
   eslint-plugin-import: 2.26.0_zsf5ejlqwqacj3yxzdl3itshay
   eslint-plugin-prettier: 4.0.0_lzmbceqeoihlyn53ipzsjezzdy
+  events: 3.3.0
   gh-pages: 4.0.0
+  html-entities: 2.4.0
   prettier: 2.8.8
   semantic-release: 19.0.5
   ts-loader: 9.4.4_eds3amszfix2awitq4d5f4pxee
